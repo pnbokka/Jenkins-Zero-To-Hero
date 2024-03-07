@@ -1,3 +1,18 @@
+## For MacOS Air M1 / arm64
+# Install Java openjdk11
+
+```
+brew install openjdk@11
+sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk \        
+     /Library/Java/JavaVirtualMachines/openjdk.jdk
+```
+
+# Install Maven
+
+```
+brew install maven
+```
+
 # Spring Boot based Java web application
  
 This is a simple Sprint Boot based Java application that can be built using Maven. Sprint Boot dependencies are handled using the pom.xml 
